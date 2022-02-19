@@ -1,0 +1,37 @@
+/* 로그인 css */
+h1 {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input::placeholder {
+  color: whitesmoke;
+}
+input[type="submit"] {
+  display: none;
+}
+#login-form {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#login-form input {
+  transition: border-color 0.5s ease-in-out;
+}
+#login-form input[type="text"] {
+  border: 0px;
+  border-bottom: 1px solid white;
+  background: none;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+}
+#login-form input:focus {
+  border-color: violet;
+  outline: none;
+}

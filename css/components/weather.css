@@ -1,0 +1,9 @@
+#weather {
+  color: white;
+  position: absolute;
+  left: 80%;
+  top: 3%;
+  font-size: 25px;
+  opacity: 0.9;
+  display: inline-block;
+}
